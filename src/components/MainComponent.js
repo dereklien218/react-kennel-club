@@ -11,7 +11,6 @@ import RallyPage from "../pages/RallyPage";
 import ConformationPage from "../pages/ConformationPage";
 import RegisterPage from "../pages/RegisterPage";
 import NewsPage from "../pages/NewsPage";
-import GalleryPage from "../pages/GalleryPage";
 import CalendarPage from "../pages/CalendarPage";
 import AboutPage from "../pages/AboutPage";
 import ContactPage from "../pages/ContactPage";
@@ -93,10 +92,9 @@ class Main extends Component {
               />
               <Route
                 exact
-                path="/gallery-new"
+                path="/gallery"
                 render={() => <DogGallery gallery={this.props.gallery} />}
               />
-              <Route exact path="/gallery" component={GalleryPage} />
               <Route
                 exact
                 path="/register"
