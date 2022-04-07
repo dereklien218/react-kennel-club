@@ -66,17 +66,9 @@ class RallyPage extends Component {
       <Container className="mt-5 pt-5 pb-5">
         <Row className="justify-content-center">
           <Col xs="10" className="text-center">
-            <h1
-              className="mb-3 mt-3 text"
-              style={{ fontWeight: "600", color: "#f87242" }}
-            >
-              Rally Classes
-            </h1>
+            <h1>Rally Classes</h1>
 
-            <p
-              className="mb-5"
-              style={{ fontWeight: "300", fontSize: "large" }}
-            >
+            <p className="subhead">
               Think of an AKC Rally® event as any team sport: You and your dog
               navigate a course, side-by-side, as you steer him through a course
               of 10-20 different signs. Each of these signs provides

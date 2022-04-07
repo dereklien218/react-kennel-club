@@ -19,20 +19,12 @@ export default function DogGallery(props) {
 
   return (
     <>
-      <Container className="mt-5 pt-5 pb-5">
+      <Container className="mt-5 pt-5">
         <Row className="justify-content-center">
           <Col xs="10" md="8" lg="6" className="text-center">
-            <h1
-              className="mb-3 mt-3 text"
-              style={{ fontWeight: "600", color: "#f87242" }}
-            >
-              Gallery
-            </h1>
+            <h1>Gallery</h1>
 
-            <p
-              className="mb-5"
-              style={{ fontWeight: "300", fontSize: "large" }}
-            >
+            <p className="subhead">
               Nieturitias aut enita vellautem ad eseque qui dolorat urepele
               senime nus est faccae verore soloriam aut et, officimus sim ea
               pratusciam.
@@ -48,6 +40,7 @@ export default function DogGallery(props) {
             height: x.height,
             width: x.width,
           }))}
+          margin={10}
           onClick={openLightbox}
         />
         <ModalGateway>

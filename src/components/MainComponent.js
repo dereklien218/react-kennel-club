@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Header from "./HeaderComponent";
-import HomePage from "../pages/HomePage";
 import ClassPage from "../pages/ClassPage";
 import Footer from "./FooterComponent";
 import ObediencePage from "../pages/ObediencePage";
@@ -15,6 +14,10 @@ import CalendarPage from "../pages/CalendarPage";
 import AboutPage from "../pages/AboutPage";
 import ContactPage from "../pages/ContactPage";
 import DogGallery from "../pages/DogGalleryPage";
+import HeroParallax from "./HeroParallaxComponent";
+import ClassTabs from "./ClassTabsComponent";
+import NewsParallax from "./NewsParallaxComponent";
+import MapboxMap from "./MapboxMapComponent";
 import { Switch, Route, Redirect, withRouter } from "react-router-dom";
 import { connect } from "react-redux";
 import { actions } from "react-redux-form";
@@ -43,6 +46,18 @@ const mapDispatchToProps = {
 
 class Main extends Component {
   render() {
+    const HomePage = () => {
+      return (
+        <>
+          <HeroParallax />
+          <ClassTabs />
+          <NewsParallax />
+          <DogGallery gallery={this.props.gallery} />
+          <MapboxMap />
+        </>
+      );
+    };
+
     return (
       <div>
         <Header />

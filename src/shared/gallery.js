@@ -5,6 +5,7 @@ export const GALLERY = [
     image: "assets/images/IMG_7111.jpg",
     width: 16,
     height: 9,
+    featured: true,
   },
   {
     id: 1,
@@ -12,6 +13,7 @@ export const GALLERY = [
     image: "assets/images/_MSU9073.jpg",
     width: 2,
     height: 3,
+    featured: true,
   },
   {
     id: 2,
@@ -19,6 +21,7 @@ export const GALLERY = [
     image: "assets/images/GUS-IMG_7144.jpg",
     width: 2,
     height: 3,
+    featured: false,
   },
   {
     id: 3,
@@ -26,6 +29,7 @@ export const GALLERY = [
     image: "assets/images/04-Gus-BB-Comercial.jpg",
     width: 16,
     height: 9,
+    featured: true,
   },
   {
     id: 4,
@@ -33,6 +37,7 @@ export const GALLERY = [
     image: "assets/images/02-Gus-BB-Comercial.jpg",
     width: 16,
     height: 9,
+    featured: false,
   },
   {
     id: 5,
@@ -40,6 +45,7 @@ export const GALLERY = [
     image: "assets/images/KONA-IMG_7640.jpg",
     width: 2,
     height: 3,
+    featured: false,
   },
   {
     id: 6,
@@ -47,6 +53,7 @@ export const GALLERY = [
     image: "assets/images/conformation-retriever.jpg",
     width: 3,
     height: 2,
+    featured: true,
   },
   {
     id: 7,
@@ -54,6 +61,7 @@ export const GALLERY = [
     image: "assets/images/gus-bone-2.jpg",
     width: 2,
     height: 3,
+    featured: true,
   },
   {
     id: 8,
@@ -61,6 +69,7 @@ export const GALLERY = [
     image: "assets/images/husky-vert.jpg",
     width: 2,
     height: 3,
+    featured: false,
   },
   {
     id: 9,
@@ -68,6 +77,7 @@ export const GALLERY = [
     image: "assets/images/scent-work-1.jpg",
     width: 3,
     height: 2,
+    featured: true,
   },
   {
     id: 10,
@@ -75,6 +85,7 @@ export const GALLERY = [
     image: "assets/images/puppy-lab.jpg",
     width: 3,
     height: 2,
+    featured: false,
   },
   {
     id: 11,
@@ -82,5 +93,6 @@ export const GALLERY = [
     image: "assets/images/kona-firepit.jpg",
     width: 2,
     height: 3,
+    featured: false,
   },
 ];

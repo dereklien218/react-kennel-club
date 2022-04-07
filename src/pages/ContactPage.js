@@ -51,9 +51,9 @@ class ContactPage extends Component {
           <div className="col-sm-4">
             <h5>Our Address</h5>
             <address>
-              Fargo-Moorhead Kennel Club
+              The Kennel Club
               <br />
-              PO Box 991
+              PO Box 1234
               <br />
               West Fargo, ND 58078
             </address>

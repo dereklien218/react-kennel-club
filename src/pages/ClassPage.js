@@ -51,7 +51,6 @@ function ClassPage() {
             <a
               className="btn btn-outline-warning text-warning-hover mt-4"
               href="/puppy-classes"
-              style={{ color: "#1d1d2c" }}
               role="button"
             >
               Learn More
@@ -73,7 +72,6 @@ function ClassPage() {
             <a
               className="btn btn-outline-warning text-warning-hover mt-4 order-md-3 order-3"
               href="/obedience-classes"
-              style={{ color: "#1d1d2c" }}
               role="button"
             >
               Learn More
@@ -111,7 +109,6 @@ function ClassPage() {
             <a
               className="btn btn-outline-warning text-warning-hover mt-4"
               href="/agility-classes"
-              style={{ color: "#1d1d2c" }}
               role="button"
             >
               Learn More
@@ -133,7 +130,6 @@ function ClassPage() {
             <a
               className="btn btn-outline-warning text-warning-hover mt-4 order-md-3 order-3"
               href="/scentwork-classes"
-              style={{ color: "#1d1d2c" }}
               role="button"
             >
               Learn More
@@ -169,7 +165,6 @@ function ClassPage() {
             <a
               className="btn btn-outline-warning text-warning-hover mt-4"
               href="/rally-classes"
-              style={{ color: "#1d1d2c" }}
               role="button"
             >
               Learn More
@@ -193,7 +188,6 @@ function ClassPage() {
             <a
               className="btn btn-outline-warning text-warning-hover mt-4 order-md-3 order-3"
               href="/conformation"
-              style={{ color: "#1d1d2c" }}
               role="button"
             >
               Learn More

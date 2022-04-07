@@ -62,17 +62,9 @@ class PuppyPage extends Component {
       <Container className="mt-5 pt-5 pb-5">
         <Row className="justify-content-center">
           <Col xs="10" md="8" lg="6" className="text-center">
-            <h1
-              className="mb-3 mt-3 text"
-              style={{ fontWeight: "600", color: "#f87242" }}
-            >
-              Puppy Classes
-            </h1>
+            <h1>Puppy Classes</h1>
 
-            <p
-              className="mb-5"
-              style={{ fontWeight: "300", fontSize: "large" }}
-            >
+            <p className="subhead">
               We know that a well-trained dog is a joy to own. Puppy classes
               provide a starting point for a lifetime of training and learning
               with your dog. Graduates go on to Canine Good Citizen training and

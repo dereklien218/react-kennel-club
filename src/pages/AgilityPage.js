@@ -54,17 +54,9 @@ class AgilityPage extends Component {
       <Container className="mt-5 pt-5 pb-5">
         <Row className="justify-content-center">
           <Col xs="10" md="8" lg="6" className="text-center">
-            <h1
-              className="mb-3 mt-3 text"
-              style={{ fontWeight: "600", color: "#f87242" }}
-            >
-              Agility
-            </h1>
+            <h1>Agility</h1>
 
-            <p
-              className="mb-5"
-              style={{ fontWeight: "300", fontSize: "large" }}
-            >
+            <p className="subhead">
               The Fargo-Moorhead Kennel Club offers agility classes for those
               that have the desire to compete in AKC agility trials.
             </p>

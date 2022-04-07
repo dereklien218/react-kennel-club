@@ -63,17 +63,9 @@ class ScentworkPage extends Component {
       <Container className="mt-5 pt-5 pb-5">
         <Row className="justify-content-center">
           <Col xs="10" md="8" className="text-center">
-            <h1
-              className="mb-3 mt-3 text"
-              style={{ fontWeight: "600", color: "#f87242" }}
-            >
-              Scent Work Classes
-            </h1>
+            <h1>Scent Work Classes</h1>
 
-            <p
-              className="mb-5"
-              style={{ fontWeight: "300", fontSize: "large" }}
-            >
+            <p className="subhead">
               Discover Scent Work! The latest AKC training activity that
               develops your dog’s natural scenting abilities through fun and
               games. Geared for dogs of all shapes, sizes and ages, Scent Work
