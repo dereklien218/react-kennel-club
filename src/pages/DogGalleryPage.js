@@ -25,9 +25,8 @@ export default function DogGallery(props) {
             <h1>Gallery</h1>
 
             <p className="subhead">
-              Nieturitias aut enita vellautem ad eseque qui dolorat urepele
-              senime nus est faccae verore soloriam aut et, officimus sim ea
-              pratusciam.
+              From hard working performance dogs to obedient canine companions,
+              browse photos of the Kennel Club dogs in action!
             </p>
           </Col>
         </Row>

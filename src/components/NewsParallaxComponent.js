@@ -17,7 +17,7 @@ class NewsParallax extends Component {
         <div className="container h-100">
           <div className="row justify-content-center h-100 align-items-center">
             <div className="col-12 col-md-8 text-center">
-              <div className="text-white mt-5 mb-5">
+              <div className="text-white pt-3 pb-3 mt-5 mb-5">
                 <span
                   style={{
                     fontWeight: "600",
@@ -32,8 +32,9 @@ class NewsParallax extends Component {
                   className="lead text-white mt-3"
                   style={{ fontFamily: "Open Sans" }}
                 >
-                  Pore as debis pe pariae dellore deriat. Tur aute non
-                  exerovidemo tem repel et ipsunt alit vel imus elictem.
+                  Find out the latest training tips, advice and news from the
+                  Kennel Club. View upcoming conformation, companion and
+                  performance events.
                 </p>
                 <a
                   className="btn btn-outline-warning text-warning-hover mt-4"

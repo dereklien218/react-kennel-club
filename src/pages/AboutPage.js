@@ -10,8 +10,8 @@ function About() {
           <h1>About Us</h1>
 
           <p className="subhead">
-            Nieturitias aut enita vellautem ad eseque qui dolorat urepele senime
-            nus est faccae verore soloriam aut et, officimus sim ea pratusciam.
+            The Kennel Club is an AKC affiliated dog club since 1953. It's a
+            great place to learn with your dog.
           </p>
         </Col>
       </Row>
@@ -26,7 +26,7 @@ function About() {
       </Row>
       <Row className="justify-content-center">
         <Col xs="10" className="mb-5 mt-4">
-          <h3>Eriorio Aque Prosessum Nonse</h3>
+          <h3>The Kennel Club</h3>
           <p className="mt-3">
             Doluptas molor a volesed que cusam, offictat volo optate am
             volorerum renet dolorion rernat exerchitas arum exped ea vercipsame

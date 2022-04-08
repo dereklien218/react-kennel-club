@@ -29,8 +29,8 @@ class HeroParallax extends Component {
                   className="lead text-white mt-4"
                   style={{ fontFamily: "Open Sans" }}
                 >
-                  Pore as debis pe pariae dellore deriat. Tur aute non
-                  exerovidemo tem repel et ipsunt alit vel imus elictem.
+                  The Kennel Club is an AKC affiliated dog club since 1953. It's
+                  a great place to learn and have fun with your dog!
                 </p>
                 <a
                   className="btn btn-outline-warning text-warning-hover mt-4"

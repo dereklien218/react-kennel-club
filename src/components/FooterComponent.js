@@ -63,16 +63,24 @@ function Footer(props) {
             <h6>Useful links</h6>
             <hr />
             <p>
-              <Link to="/home">Link 01</Link>
+              <Link to={{ pathname: "https://www.akc.org/" }} target="_blank">
+                American Kennel Club
+              </Link>
             </p>
             <p>
-              <Link to="/home">Link 02</Link>
+              <Link
+                to={{
+                  pathname: "https://webapps.akc.org/event-search/#/search",
+                }}
+                target="_blank"
+              >
+                AKC Events
+              </Link>
             </p>
             <p>
-              <Link to="/home">Link 03</Link>
-            </p>
-            <p>
-              <Link to="/home">Link 04</Link>
+              <Link to={{ pathname: "https://www.jjdog.com/" }} target="_blank">
+                J and J Dog Supplies
+              </Link>
             </p>
           </div>
 

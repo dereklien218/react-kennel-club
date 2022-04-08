@@ -55,6 +55,15 @@ class Main extends Component {
           <DogGallery
             gallery={this.props.gallery.filter((item) => item.featured)}
           />
+          <div className="mb-5 text-center">
+            <a
+              className="btn btn-outline-warning text-warning-hover mt-2"
+              href="/gallery"
+              role="button"
+            >
+              View More Photos
+            </a>
+          </div>
           <MapboxMap />
         </>
       );

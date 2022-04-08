@@ -33,7 +33,7 @@ function MapboxMap() {
           <span></span>
         </div>
         <div style={{ cursor: "pointer" }}>
-          <strong>FM Kennel Club</strong>
+          <strong>The Kennel Club</strong>
         </div>
       </Marker>
       {showPopup && (

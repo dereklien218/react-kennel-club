@@ -31,8 +31,9 @@ function ClassTabs() {
 
           <p className="mb-4">
             <span style={{ fontWeight: "300", fontSize: "medium" }}>
-              Nieturitias aut enita vellautem ad eseque qui dolorat urepele
-              senime nus est faccae verore soloriam aut et, sim ea pratusciam.
+              The Kennel Club offers many different levels of obedience classes.
+              Whether you want a well mannered house pet or a highly skilled
+              competitor, we have the right class for you.
             </span>
           </p>
         </div>
