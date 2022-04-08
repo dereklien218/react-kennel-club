@@ -52,7 +52,9 @@ class Main extends Component {
           <HeroParallax />
           <ClassTabs />
           <NewsParallax />
-          <DogGallery gallery={this.props.gallery} />
+          <DogGallery
+            gallery={this.props.gallery.filter((item) => item.featured)}
+          />
           <MapboxMap />
         </>
       );
