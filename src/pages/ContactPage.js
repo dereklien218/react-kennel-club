@@ -41,14 +41,14 @@ class ContactPage extends Component {
     return (
       <Container className="mt-5 pt-5 pb-5">
         <Row className="justify-content-center">
-          <Col xs="10">
+          <Col xs={10}>
             <h2>Contact Us</h2>
             <hr />
           </Col>
         </Row>
 
-        <div className="row row-content align-items-center">
-          <div className="col-sm-4">
+        <Row className="row-content align-items-center">
+          <Col sm={4}>
             <h5>Our Address</h5>
             <address>
               The Kennel Club
@@ -57,8 +57,8 @@ class ContactPage extends Component {
               <br />
               West Fargo, ND 58078
             </address>
-          </div>
-          <div className="col">
+          </Col>
+          <Col>
             <a role="button" className="btn btn-link" href="tel:+1234567890">
               <i className="fa fa-phone" /> 1-234-456-7890
             </a>
@@ -70,15 +70,15 @@ class ContactPage extends Component {
             >
               <i className="fa fa-envelope-o" /> email@email.com
             </a>
-          </div>
-        </div>
+          </Col>
+        </Row>
 
         <Row className="justify-content-center">
           <Col xs={10}>
             <h2>Send us your Feedback</h2>
             <hr />
           </Col>
-          <div className="col-md-10">
+          <Col xs={10}>
             <Form
               model="feedbackForm"
               onSubmit={(values) => this.handleSubmit(values)}
@@ -253,7 +253,7 @@ class ContactPage extends Component {
                 </Col>
               </Row>
             </Form>
-          </div>
+          </Col>
         </Row>
       </Container>
     );
