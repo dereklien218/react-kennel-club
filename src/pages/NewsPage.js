@@ -105,7 +105,7 @@ class NewsPage extends Component {
             <h1>News & Events</h1>
 
             <p className="subhead">
-              Nieturitias aut enita vellautem ad eseque qui dolorat urepele
+              Nieturitias aut enita vellautem ades eque qui dolorat urepele
               senime nus est faccae verore soloriam aut et, officimus sim ea
               pratusciam.
             </p>
