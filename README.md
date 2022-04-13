@@ -1,7 +1,7 @@
 # The Kennel Club
 
 This project was developed to practice applying concepts learned while learning React and Redux.\
-/
+\
 ![Homepage Screenshot](server/public/images/home-screenshot.jpg)
 
 ## Introduction
@@ -15,7 +15,7 @@ The site was designed with React utilizing React Router to navigate between page
 ![Screenshot 1](server/public/images/Project-Portfolio-Wireframe-1.jpg)
 ![Screenshot 2](server/public/images/Project-Portfolio-Wireframe-2.jpg)
 ![Screenshot 1](server/public/images/Project-Portfolio-Wireframe-3.jpg)
-![Screenshot 1](server/public/images/Project-Portfolio-Wireframe-4.jpg)\
+![Screenshot 1](server/public/images/Project-Portfolio-Wireframe-4.jpg)
 
 ## Navigation Structure:
 
