@@ -1,6 +1,8 @@
 # The Kennel Club
 
-This project was developed to practice applying concepts learned while learning React.
+This project was developed to practice applying concepts learned while learning React and Redux.\
+/
+![Homepage Screenshot](server/public/images/home-screenshot.jpg)
 
 ## Introduction
 
