@@ -34,7 +34,7 @@ Once again, try:
 
 ### `json-server -v`
 
-# Start and test the server
+## Start and test the server
 
 Move to the **json-server** folder in your bash terminal and type the following at the command prompt to start the server:
 
