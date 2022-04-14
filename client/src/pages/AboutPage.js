@@ -11,7 +11,7 @@ function About() {
 
           <p className="subhead">
             The Kennel Club is an AKC affiliated dog club since 1953. It's a
-            great place to learn with your dog.
+            great place to learn and have fun with your dog.
           </p>
         </Col>
       </Row>

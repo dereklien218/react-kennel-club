@@ -41,7 +41,9 @@ class CalendarPage extends Component {
             startAccessor="start"
             endAccessor="end"
             style={{ height: "100%" }}
-            onSelectEvent={(event) => alert(event.title + ", \n" + event.start)}
+            onSelectEvent={(event) =>
+              alert(event.title + ", \n" + event.info + ", \n" + event.start)
+            }
             scrollToTime={13}
             showAllEvents
           />

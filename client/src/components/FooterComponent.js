@@ -32,8 +32,8 @@ function Footer(props) {
             <h6>The Kennel Club</h6>
             <hr />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
-              ipsum dolor sit amet consectetur adipisicing elit.
+              The Kennel Club is an AKC affiliated dog club since 1953. It's a
+              great place to learn and have fun with your dog.
             </p>
           </div>
           <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
