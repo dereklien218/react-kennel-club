@@ -1,6 +1,7 @@
 # The Kennel Club
 
 This project was developed to practice applying the concepts I learned while taking classes on React and Redux. \
+**[View the site](https://dereklien218.github.io/react-kennel-club/)**
 \
 ![Homepage Screenshot](server/public/images/home-screenshot.jpg)
 
