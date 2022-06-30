@@ -50,7 +50,10 @@ class Header extends Component {
                   News
                 </NavLink>
               </NavItem>
-              <NavbarBrand className="d-none d-md-flex" href="/home">
+              <NavbarBrand
+                className="d-none d-md-flex"
+                href="react-kennel-club/home"
+              >
                 The Kennel Club
               </NavbarBrand>
               <NavItem>

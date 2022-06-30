@@ -3,8 +3,7 @@ import ReactMapGL, { Marker, Popup } from "react-map-gl";
 import { Badge } from "reactstrap";
 import "mapbox-gl/dist/mapbox-gl.css";
 
-const mapboxApiKey =
-  "pk.eyJ1IjoiZGVyZWtsaWVuMjE4IiwiYSI6ImNrdXlibTZ4eDcweTcydm1uMmoyYmZrczkifQ.fVJsr2u2-oesyCuGLoyt9A";
+const mapboxApiKey = process.env.REACT_APP_MAPBOX_KEY;
 
 function MapboxMap() {
   const [viewport, setViewport] = React.useState({
