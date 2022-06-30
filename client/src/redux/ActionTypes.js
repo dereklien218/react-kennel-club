@@ -1,8 +1,0 @@
-export const PUPPY_LOADING = 'PUPPY_LOADING';
-export const PUPPY_FAILED = 'PUPPY_FAILED';
-export const ADD_PUPPY = 'ADD_PUPPY';
-
-export const OBEDIENCE_LOADING = 'OBEDIENCE_LOADING';
-export const OBEDIENCE_FAILED = 'OBEDIENCE_FAILED';
-export const ADD_OBEDIENCE = 'ADD_OBEDIENCE';
-
