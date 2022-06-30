@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 class NewsParallax extends Component {
   render() {
@@ -36,14 +37,14 @@ class NewsParallax extends Component {
                   Kennel Club. View upcoming conformation, companion and
                   performance events.
                 </p>
-                <a
+                <Link
                   className="btn btn-outline-warning text-warning-hover mt-4"
-                  href="/news-events"
-                  style={{ color: "#fff" }}
                   role="button"
+                  to="/news-events"
+                  style={{ color: "#fff" }}
                 >
                   Learn More
-                </a>
+                </Link>
               </div>
             </div>
           </div>

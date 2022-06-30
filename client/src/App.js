@@ -11,7 +11,7 @@ class App extends Component {
   render() {
     return (
       <Provider store={store}>
-        <BrowserRouter basename="/react-kennel-club">
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
           <div className="App">
             <Main />
           </div>

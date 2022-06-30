@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import classnames from "classnames";
 import {
   Card,
@@ -118,7 +119,7 @@ function ClassTabs() {
                 <Card className="mb-4 mx-auto mx-sm-3">
                   <CardImg
                     top
-                    src="/assets/images/puppy-lab.jpg"
+                    src="assets/images/puppy-lab.jpg"
                     alt="Card image cap"
                   />
                   <CardBody>
@@ -130,18 +131,19 @@ function ClassTabs() {
                     <CardSubtitle className="text-muted small">
                       Recommended age: 8 weeks to 6 months.
                     </CardSubtitle>
-                    <a
+                    <Link
                       className="btn btn-outline-warning stretched-link"
-                      href="/puppy-classes#akcstarpuppy"
+                      role="button"
+                      to="/puppy-classes#akcstarpuppy"
                     >
                       Learn More
-                    </a>
+                    </Link>
                   </CardBody>
                 </Card>
                 <Card className="mb-4 mx-auto mx-sm-3">
                   <CardImg
                     top
-                    src="/assets/images/husky-treat.jpg"
+                    src="assets/images/husky-treat.jpg"
                     alt="Card image cap"
                   />
                   <CardBody>
@@ -155,12 +157,13 @@ function ClassTabs() {
                     <CardSubtitle className="text-muted small">
                       Recommended age: Under 6 months.
                     </CardSubtitle>
-                    <a
+                    <Link
                       className="btn btn-outline-warning stretched-link"
-                      href="/puppy-classes#puppydynamics"
+                      role="button"
+                      to="/puppy-classes#puppydynamics"
                     >
                       Learn More
-                    </a>
+                    </Link>
                   </CardBody>
                 </Card>
               </div>
@@ -171,7 +174,7 @@ function ClassTabs() {
                 <Card className="mb-4 mx-auto mx-sm-3">
                   <CardImg
                     top
-                    src="/assets/images/02-Gus-BB-Comercial-cropped.jpg"
+                    src="assets/images/02-Gus-BB-Comercial-cropped.jpg"
                     alt="Card image cap"
                   />
                   <CardBody>
@@ -184,18 +187,19 @@ function ClassTabs() {
                     <CardSubtitle className="text-muted small">
                       Recommended age: 5 months or older.
                     </CardSubtitle>
-                    <a
+                    <Link
                       className="btn btn-outline-warning stretched-link"
-                      href="/obedience-classes#beginners"
+                      role="button"
+                      to="/obedience-classes#beginners"
                     >
                       Learn More
-                    </a>
+                    </Link>
                   </CardBody>
                 </Card>
                 <Card className="mb-4 mx-auto mx-sm-3">
                   <CardImg
                     top
-                    src="/assets/images/Chewy-IMG_6820.jpg"
+                    src="assets/images/Chewy-IMG_6820.jpg"
                     alt="Card image cap"
                   />
                   <CardBody>
@@ -208,18 +212,19 @@ function ClassTabs() {
                     <CardSubtitle className="text-muted small">
                       Recommended age: 5 months or older.
                     </CardSubtitle>
-                    <a
+                    <Link
                       className="btn btn-outline-warning stretched-link"
-                      href="/obedience-classes#basic"
+                      role="button"
+                      to="/obedience-classes#basic"
                     >
                       Learn More
-                    </a>
+                    </Link>
                   </CardBody>
                 </Card>
                 <Card className="mb-4 mx-auto mx-sm-3">
                   <CardImg
                     top
-                    src="/assets/images/line-of-dogs.jpg"
+                    src="assets/images/line-of-dogs.jpg"
                     alt="Card image cap"
                   />
                   <CardBody>
@@ -232,18 +237,19 @@ function ClassTabs() {
                     <CardSubtitle className="text-muted small">
                       Recommended age: 6 months or older.
                     </CardSubtitle>
-                    <a
+                    <Link
                       className="btn btn-outline-warning stretched-link"
-                      href="/obedience-classes#advanced"
+                      role="button"
+                      to="/obedience-classes#advanced"
                     >
                       Learn More
-                    </a>
+                    </Link>
                   </CardBody>
                 </Card>
                 <Card className="mb-4 mx-auto mx-sm-3">
                   <CardImg
                     top
-                    src="/assets/images/FPO-071021_NOC_68634-2.jpg"
+                    src="assets/images/FPO-071021_NOC_68634-2.jpg"
                     alt="Card image cap"
                   />
                   <CardBody>
@@ -255,12 +261,13 @@ function ClassTabs() {
                     <CardSubtitle className="text-muted small">
                       Recommended age: 6 months or older.
                     </CardSubtitle>
-                    <a
+                    <Link
                       className="btn btn-outline-warning stretched-link"
-                      href="/obedience-classes#competition"
+                      role="button"
+                      to="/obedience-classes#competition"
                     >
                       Learn More
-                    </a>
+                    </Link>
                   </CardBody>
                 </Card>
               </div>
@@ -271,7 +278,7 @@ function ClassTabs() {
                 <Card className="mb-4 mx-auto mx-sm-3">
                   <CardImg
                     top
-                    src="/assets/images/agility.jpg"
+                    src="assets/images/agility.jpg"
                     alt="Card image cap"
                   />
                   <CardBody>
@@ -287,12 +294,13 @@ function ClassTabs() {
                       There are prerequisites and requirements to enroll in
                       Agility classes.
                     </CardSubtitle>
-                    <a
+                    <Link
                       className="btn btn-outline-warning stretched-link"
-                      href="/agility-classes"
+                      role="button"
+                      to="/agility-classes"
                     >
                       Learn More
-                    </a>
+                    </Link>
                   </CardBody>
                 </Card>
               </div>
@@ -303,7 +311,7 @@ function ClassTabs() {
                 <Card className="mb-4 mx-auto mx-sm-3">
                   <CardImg
                     top
-                    src="/assets/images/scent-work-1.jpg"
+                    src="assets/images/scent-work-1.jpg"
                     alt="Card image cap"
                   />
                   <CardBody>
@@ -317,18 +325,19 @@ function ClassTabs() {
                       to have taken basic obedience classes prior to enrolling
                       in Scent Work.
                     </CardSubtitle>
-                    <a
+                    <Link
                       className="btn btn-outline-warning stretched-link"
-                      href="/scentwork-classes#levelone"
+                      role="button"
+                      to="/scentwork-classes#levelone"
                     >
                       Learn More
-                    </a>
+                    </Link>
                   </CardBody>
                 </Card>
                 <Card className="mb-4 mx-auto mx-sm-3">
                   <CardImg
                     top
-                    src="/assets/images/scent-work-2.jpg"
+                    src="assets/images/scent-work-2.jpg"
                     alt="Card image cap"
                   />
                   <CardBody>
@@ -342,18 +351,19 @@ function ClassTabs() {
                       to have taken basic obedience classes prior to enrolling
                       in Scent Work.
                     </CardSubtitle>
-                    <a
+                    <Link
                       className="btn btn-outline-warning stretched-link"
-                      href="/scentwork-classes#leveltwo"
+                      role="button"
+                      to="/scentwork-classes#leveltwo"
                     >
                       Learn More
-                    </a>
+                    </Link>
                   </CardBody>
                 </Card>
                 <Card className="mb-4 mx-auto mx-sm-3">
                   <CardImg
                     top
-                    src="/assets/images/scent-work-3.jpg"
+                    src="assets/images/scent-work-3.jpg"
                     alt="Card image cap"
                   />
                   <CardBody>
@@ -368,12 +378,13 @@ function ClassTabs() {
                       to have taken basic obedience classes prior to enrolling
                       in Scent Work.
                     </CardSubtitle>
-                    <a
+                    <Link
                       className="btn btn-outline-warning stretched-link"
-                      href="/scentwork-classes#levelthree"
+                      role="button"
+                      to="/scentwork-classes#levelthree"
                     >
                       Learn More
-                    </a>
+                    </Link>
                   </CardBody>
                 </Card>
               </div>
@@ -384,7 +395,7 @@ function ClassTabs() {
                 <Card className="mb-4 mx-auto mx-sm-3">
                   <CardImg
                     top
-                    src="/assets/images/conformation-retriever.jpg"
+                    src="assets/images/conformation-retriever.jpg"
                     alt="Card image cap"
                   />
                   <CardBody>
@@ -399,18 +410,19 @@ function ClassTabs() {
                       Recommended age: Over 6 months with some impulse control.
                       A sit and down with walking on leash helpful.
                     </CardSubtitle>
-                    <a
+                    <Link
                       className="btn btn-outline-warning stretched-link"
-                      href="/rally-classes#intro"
+                      role="button"
+                      to="/rally-classes#intro"
                     >
                       Learn More
-                    </a>
+                    </Link>
                   </CardBody>
                 </Card>
                 <Card className="mb-4 mx-auto mx-sm-3">
                   <CardImg
                     top
-                    src="/assets/images/border-collie-competition.jpg"
+                    src="assets/images/border-collie-competition.jpg"
                     alt="Card image cap"
                   />
                   <CardBody>
@@ -424,18 +436,19 @@ function ClassTabs() {
                       Recommended age: Over 6 months with some impulse control.
                       A sit and down with walking on leash helpful.
                     </CardSubtitle>
-                    <a
+                    <Link
                       className="btn btn-outline-warning stretched-link"
-                      href="/rally-classes#competitive"
+                      role="button"
+                      to="/rally-classes#competitive"
                     >
                       Learn More
-                    </a>
+                    </Link>
                   </CardBody>
                 </Card>
                 <Card className="mb-4 mx-auto mx-sm-3">
                   <CardImg
                     top
-                    src="/assets/images/conformation-1.jpg"
+                    src="assets/images/conformation-1.jpg"
                     alt="Card image cap"
                   />
                   <CardBody>
@@ -449,12 +462,13 @@ function ClassTabs() {
                     <CardSubtitle className="text-muted small">
                       Recommended age: 3 months.
                     </CardSubtitle>
-                    <a
+                    <Link
                       className="btn btn-outline-warning stretched-link"
-                      href="/conformation"
+                      role="button"
+                      to="/conformation"
                     >
                       Learn More
-                    </a>
+                    </Link>
                   </CardBody>
                 </Card>
               </div>

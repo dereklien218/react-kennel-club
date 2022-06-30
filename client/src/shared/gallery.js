@@ -10,7 +10,7 @@ export const GALLERY = [
   {
     id: 1,
     name: "A Doberman Pinscher watching over students at MSUM.",
-    image: "assets/images/_MSU9073.jpg",
+    image: "assets/images/MSU9073.jpg",
     width: 2,
     height: 3,
     featured: true,

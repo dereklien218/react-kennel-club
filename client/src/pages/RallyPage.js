@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import { Container, Row, Col } from "reactstrap";
 import { RALLY } from "../shared/rally";
 import { FadeTransform } from "react-animation-components";
@@ -52,9 +53,13 @@ class RallyPage extends Component {
                   </span>
                   {rally.equipment}
                 </p>
-                <a className="btn btn-outline-warning" href={rally.register}>
+                <Link
+                  className="btn btn-outline-warning"
+                  role="button"
+                  to={rally.register}
+                >
                   Register
-                </a>
+                </Link>
               </Col>
             </Row>
           </React.Fragment>

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import { Container, Row, Col } from "reactstrap";
 import { SCENTWORK } from "../shared/scentwork";
 import { FadeTransform } from "react-animation-components";
@@ -46,12 +47,13 @@ class ScentworkPage extends Component {
                   </span>
                   {scentwork.equipment}
                 </p>
-                <a
+                <Link
                   className="btn btn-outline-warning"
-                  href={scentwork.register}
+                  role="button"
+                  to={scentwork.register}
                 >
                   Register
-                </a>
+                </Link>
               </Col>
             </Row>
           </React.Fragment>

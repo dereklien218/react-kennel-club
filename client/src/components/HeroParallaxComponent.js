@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 class HeroParallax extends Component {
   render() {
@@ -32,14 +33,14 @@ class HeroParallax extends Component {
                   The Kennel Club is an AKC affiliated dog club since 1953. It's
                   a great place to learn and have fun with your dog!
                 </p>
-                <a
+                <Link
                   className="btn btn-outline-warning text-warning-hover mt-4"
-                  href="/about"
-                  style={{ color: "#fff" }}
                   role="button"
+                  to="/about"
+                  style={{ color: "#fff" }}
                 >
                   Learn More
-                </a>
+                </Link>
               </div>
             </div>
           </div>

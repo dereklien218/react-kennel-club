@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import { Container, Row, Col } from "reactstrap";
 import { AGILITY } from "../shared/agility";
 import { FadeTransform } from "react-animation-components";
@@ -40,9 +41,13 @@ class AgilityPage extends Component {
                   </span>
                   {agility.prerequisites}
                 </p>
-                <a className="btn btn-outline-warning" href={agility.register}>
+                <Link
+                  className="btn btn-outline-warning"
+                  role="button"
+                  to={agility.register}
+                >
                   Register
-                </a>
+                </Link>
               </Col>
             </Row>
           </React.Fragment>

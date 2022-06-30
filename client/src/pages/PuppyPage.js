@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import { Container, Row, Col } from "reactstrap";
 import { PUPPY } from "../shared/puppy";
 import { FadeTransform } from "react-animation-components";
@@ -48,9 +49,13 @@ class PuppyPage extends Component {
                   </span>
                   {puppy.equipment}
                 </p>
-                <a className="btn btn-outline-warning" href={puppy.register}>
+                <Link
+                  className="btn btn-outline-warning"
+                  role="button"
+                  to={puppy.register}
+                >
                   Register
-                </a>
+                </Link>
               </Col>
             </Row>
           </React.Fragment>

@@ -3,7 +3,7 @@ export const PUPPY = [
     id: 0,
     title: "puppy",
     name: "AKC S.T.A.R. Puppy",
-    image: "/assets/images/Kona-Puppy-1366x683.jpg",
+    image: "assets/images/Kona-Puppy-1366x683.jpg",
     description:
       "The AKC S.T.A.R. Puppy is an exciting program designed to get dog owners and their puppies off to a good start. We believe that all dogs deserve training and a responsible owner and the AKC has a goal to reward responsible dog ownership. All dogs are welcome to participate in the AKC S.T.A.R. Puppy Program including purebreds and mixed breeds.",
     descriptionTwo:
@@ -20,7 +20,7 @@ export const PUPPY = [
     id: 1,
     title: "puppy",
     name: "Puppy Dynamics",
-    image: "/assets/images/husky-treat-1366x683.jpg",
+    image: "assets/images/husky-treat-1366x683.jpg",
     description:
       "Designed to develop teamwork between dog and handler. This class will review obedience skills learned in AKC S.T.A.R. PUPPY class or other puppy class and will focus on teaching teamwork and confidence building. The skills, handler focus, impulse control, body awareness, manners and skills to become a great pet are the focus of this class. Engagement and focus is fun!!!",
     age: "Under 6 months.",

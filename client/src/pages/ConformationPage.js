@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import { Container, Row, Col } from "reactstrap";
 import { CONFORMATION } from "../shared/conformation";
 import { FadeTransform } from "react-animation-components";
@@ -57,12 +58,13 @@ class ConformationPage extends Component {
                   </span>
                   {conformation.equipment}
                 </p>
-                <a
+                <Link
                   className="btn btn-outline-warning"
-                  href={conformation.register}
+                  role="button"
+                  to={conformation.register}
                 >
                   Register
-                </a>
+                </Link>
               </Col>
             </Row>
           </React.Fragment>

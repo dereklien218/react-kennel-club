@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import { Container, Row, Col } from "reactstrap";
 import NewsParallax from "../components/NewsParallaxComponent";
 
@@ -32,9 +33,13 @@ class NewsPage extends Component {
                   </span>
                   {news.information}
                 </p>
-                <a className="btn btn-outline-warning" href={news.register}>
+                <Link
+                  className="btn btn-outline-warning"
+                  role="button"
+                  to={news.register}
+                >
                   Register
-                </a>
+                </Link>
               </Col>
             </Row>
           </Container>
@@ -54,9 +59,13 @@ class NewsPage extends Component {
                 {news.event1}
               </Col>
               <Col sm={3} className="text-center">
-                <a className="btn btn-outline-warning" href={news.register}>
+                <Link
+                  className="btn btn-outline-warning"
+                  role="button"
+                  to={news.register}
+                >
                   Register
-                </a>
+                </Link>
               </Col>
             </Row>
             <Row className="justify-content-center pt-4 pb-4">
@@ -71,9 +80,13 @@ class NewsPage extends Component {
                 {news.event2}
               </Col>
               <Col sm={3} className="text-center">
-                <a className="btn btn-outline-warning" href={news.register}>
+                <Link
+                  className="btn btn-outline-warning"
+                  role="button"
+                  to={news.register}
+                >
                   Register
-                </a>
+                </Link>
               </Col>
             </Row>
             <Row className="justify-content-center pt-4 pb-4">
@@ -88,9 +101,13 @@ class NewsPage extends Component {
                 {news.event3}
               </Col>
               <Col sm={3} className="text-center">
-                <a className="btn btn-outline-warning" href={news.register}>
+                <Link
+                  className="btn btn-outline-warning"
+                  role="button"
+                  to={news.register}
+                >
                   Register
-                </a>
+                </Link>
               </Col>
             </Row>
           </Container>

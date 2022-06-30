@@ -1,4 +1,5 @@
-import * as React from "react";
+import React from "react";
+import { Link } from "react-router-dom";
 import ReactMapGL, { Marker, Popup } from "react-map-gl";
 import { Badge } from "reactstrap";
 import "mapbox-gl/dist/mapbox-gl.css";
@@ -44,9 +45,11 @@ function MapboxMap() {
           onClose={() => togglePopup(false)}
           anchor="top"
         >
-          <Badge pill color="info" className="mt-3 mb-2" href="/about#location">
-            Get directions
-          </Badge>
+          <Link to="/about#location">
+            <Badge pill color="info" className="mt-3 mb-2">
+              Get directions
+            </Badge>
+          </Link>
         </Popup>
       )}
     </ReactMapGL>

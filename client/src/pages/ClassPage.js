@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function ClassPage() {
   return (
@@ -48,13 +49,13 @@ function ClassPage() {
               advanced obedience classes, agility classes or just need a well
               trained puppy, our classes are perfect for you.
             </p>
-            <a
+            <Link
               className="btn btn-outline-warning text-warning-hover mt-4"
-              href="/puppy-classes"
               role="button"
+              to="/puppy-classes"
             >
               Learn More
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -69,13 +70,13 @@ function ClassPage() {
               or other puppy class and will focus on teaching teamwork and
               confidence building.
             </p>
-            <a
+            <Link
               className="btn btn-outline-warning text-warning-hover mt-4 order-md-3 order-3"
-              href="/obedience-classes"
               role="button"
+              to="/obedience-classes"
             >
               Learn More
-            </a>
+            </Link>
           </div>
           <div className="col-md-5 order-md-2 order-1">
             <img
@@ -106,13 +107,13 @@ function ClassPage() {
               get on our agility list.{" "}
               <strong>AGILITY CLASSES HAVE PREREQUISITES.</strong>
             </p>
-            <a
+            <Link
               className="btn btn-outline-warning text-warning-hover mt-4"
-              href="/agility-classes"
               role="button"
+              to="/agility-classes"
             >
               Learn More
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -127,13 +128,13 @@ function ClassPage() {
               classes varying in levels throughout the year. Please check or
               schedule to see what level of class we are currently offering.
             </p>
-            <a
+            <Link
               className="btn btn-outline-warning text-warning-hover mt-4 order-md-3 order-3"
-              href="/scentwork-classes"
               role="button"
+              to="/scentwork-classes"
             >
               Learn More
-            </a>
+            </Link>
           </div>
           <div className="col-md-5 order-md-2 order-1">
             <img
@@ -162,13 +163,13 @@ function ClassPage() {
               of 10-20 different signs. Each of these signs provides
               instructions regarding the next skill that is to be performed.
             </p>
-            <a
+            <Link
               className="btn btn-outline-warning text-warning-hover mt-4"
-              href="/rally-classes"
               role="button"
+              to="/rally-classes"
             >
               Learn More
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -185,13 +186,13 @@ function ClassPage() {
               instructor will have hands on your dogs to teach acceptance of the
               judges.
             </p>
-            <a
+            <Link
               className="btn btn-outline-warning text-warning-hover mt-4 order-md-3 order-3"
-              href="/conformation"
               role="button"
+              to="/conformation"
             >
               Learn More
-            </a>
+            </Link>
           </div>
           <div className="col-md-5 order-md-2 order-1">
             <img

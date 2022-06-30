@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import { Container, Row, Col } from "reactstrap";
 import { OBEDIENCE } from "../shared/obedience";
 import { FadeTransform } from "react-animation-components";
@@ -52,12 +53,13 @@ class ObediencePage extends Component {
                   </span>
                   {obedience.equipment}
                 </p>
-                <a
+                <Link
                   className="btn btn-outline-warning"
-                  href={obedience.register}
+                  role="button"
+                  to={obedience.register}
                 >
                   Register
-                </a>
+                </Link>
               </Col>
             </Row>
           </React.Fragment>

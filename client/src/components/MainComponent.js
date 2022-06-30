@@ -18,7 +18,7 @@ import HeroParallax from "./HeroParallaxComponent";
 import ClassTabs from "./ClassTabsComponent";
 import NewsParallax from "./NewsParallaxComponent";
 import MapboxMap from "./MapboxMapComponent";
-import { Switch, Route, Redirect, withRouter } from "react-router-dom";
+import { Switch, Route, Redirect, withRouter, Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { actions } from "react-redux-form";
 import { postRegistration, postFeedback } from "../redux/ActionCreators";
@@ -56,13 +56,13 @@ class Main extends Component {
             gallery={this.props.gallery.filter((item) => item.featured)}
           />
           <div className="mb-5 text-center">
-            <a
+            <Link
               className="btn btn-outline-warning text-warning-hover mt-2"
-              href="/gallery"
               role="button"
+              to="/gallery"
             >
               View More Photos
-            </a>
+            </Link>
           </div>
           <MapboxMap />
         </>
