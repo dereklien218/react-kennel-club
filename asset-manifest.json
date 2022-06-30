@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-kennel-club/static/css/main.f6ed768d.css",
+    "main.css": "/react-kennel-club/static/css/main.749632ed.css",
     "main.js": "/react-kennel-club/static/js/main.0118543c.js",
     "static/js/787.bb5b66bc.chunk.js": "/react-kennel-club/static/js/787.bb5b66bc.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/react-kennel-club/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
@@ -53,12 +53,12 @@
     "static/media/open-sans-latin-600italic.woff2": "/react-kennel-club/static/media/open-sans-latin-600italic.cc4bf5b2955147801c02.woff2",
     "static/media/open-sans-latin-400italic.woff2": "/react-kennel-club/static/media/open-sans-latin-400italic.bb915319f59c02c348a6.woff2",
     "index.html": "/react-kennel-club/index.html",
-    "main.f6ed768d.css.map": "/react-kennel-club/static/css/main.f6ed768d.css.map",
+    "main.749632ed.css.map": "/react-kennel-club/static/css/main.749632ed.css.map",
     "main.0118543c.js.map": "/react-kennel-club/static/js/main.0118543c.js.map",
     "787.bb5b66bc.chunk.js.map": "/react-kennel-club/static/js/787.bb5b66bc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6ed768d.css",
+    "static/css/main.749632ed.css",
     "static/js/main.0118543c.js"
   ]
 }
