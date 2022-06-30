@@ -29,7 +29,7 @@ class Header extends Component {
     return (
       <Navbar light fixed="top" expand="md">
         <div className="container flex-md-column">
-          <NavbarBrand className="d-md-none" href="/home">
+          <NavbarBrand className="d-md-none" href="/">
             The Kennel Club
           </NavbarBrand>
           <NavbarToggler onClick={this.toggleNav} />
@@ -41,7 +41,7 @@ class Header extends Component {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="nav-link" to="/classes" href="#classes">
+                <NavLink className="nav-link" to="/classes">
                   Classes
                 </NavLink>
               </NavItem>
@@ -50,10 +50,7 @@ class Header extends Component {
                   News
                 </NavLink>
               </NavItem>
-              <NavbarBrand
-                className="d-none d-md-flex"
-                href="react-kennel-club/home"
-              >
+              <NavbarBrand className="d-none d-md-flex" href="/">
                 The Kennel Club
               </NavbarBrand>
               <NavItem>

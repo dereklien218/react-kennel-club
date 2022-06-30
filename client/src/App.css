@@ -283,9 +283,31 @@ footer hr {
 
 .row-content {
   min-height: 200px;
-  margin-left: 4rem;
-  margin-right: 4rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
+
+/*------------ MEDIA ------------------*/
+@media(max-width: 768px) {
+  .row-content {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+
+@media(max-width: 570px) {
+  .row-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+@media(max-width: 280px) {
+  .row-content {
+    margin-left: .5rem;
+    margin-right: .5rem;
+  }
+  }
 
 .col-form-label {
   font-weight: 700;
