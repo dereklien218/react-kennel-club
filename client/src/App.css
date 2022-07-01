@@ -147,6 +147,46 @@ html {
   }
 }
 
+/************************ REGISTRATION PARALLAX **********************/
+
+.registrationParallax {
+  /* Full height */
+  height: 500px;
+
+  /* Parallax scrolling effect */
+  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../public/assets/images/puppy-lab.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*------------------ MEDIA ------------------*/
+
+@media screen and (max-device-width: 768px) {
+  .registrationParallax {
+    height: 350px;
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../public/assets/images/puppy-lab-768px.jpg);
+    background-attachment: scroll !important;
+  }
+}
+
+@media screen and (max-device-width: 570px) {
+  .registrationParallax {
+    height: 250px;
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../public/assets/images/puppy-lab-570px.jpg);
+    background-attachment: scroll !important;
+  }
+}
+
+@media screen and (max-device-width: 280px) {
+  .registrationParallax {
+    height: 200px;
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../public/assets/images/puppy-lab-280px.jpg);
+    background-attachment: scroll !important;
+  }
+}
+
 a {
   color: white;
 }
