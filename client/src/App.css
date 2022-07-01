@@ -40,21 +40,24 @@ html {
 
 /*------------------ MEDIA ------------------*/
 
-@media(max-width: 768px) {
+@media screen and (max-device-width: 768px) {
   .heroParallax {
     background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .2)), url(../public/assets/images/IMG_7113-768px.jpg);
+    background-attachment: scroll !important;
   }
 }
 
-@media(max-width: 570px) {
+@media screen and (max-device-width: 570px) {
   .heroParallax {
     background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .2)), url(../public/assets/images/IMG_7113-570px.jpg);
+    background-attachment: scroll !important;
   }
 }
 
-@media(max-width: 280px) {
+@media screen and (max-device-width: 280px) {
   .heroParallax {
     background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .2)), url(../public/assets/images/IMG_7113-280px.jpg);
+    background-attachment: scroll !important;
   }
 }
 
