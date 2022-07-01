@@ -4,15 +4,7 @@ import { Link } from "react-router-dom";
 class HeroParallax extends Component {
   render() {
     return (
-      <header
-        className="jumbotron-fluid parallax vh-100"
-        style={{
-          backgroundImage:
-            "linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .2)), url(" +
-            "assets/images/IMG_7113.jpg" +
-            ")",
-        }}
-      >
+      <header className="jumbotron-fluid heroParallax vh-100">
         <div className="container h-100">
           <div className="row row-content mx-auto justify-content-center h-100 align-items-center">
             <div className="col-12 col-md-8 text-center">

@@ -24,6 +24,42 @@ html {
   background-size: cover;
 }
 
+/************************ HERO PARALLAX **********************/
+
+.heroParallax {
+  /* Full height */
+  height: 100%;
+
+  /* Parallax scrolling effect */
+  background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .2)), url(../public/assets/images/IMG_7113.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*------------------ MEDIA ------------------*/
+
+@media(max-width: 768px) {
+  .heroParallax {
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .2)), url(../public/assets/images/IMG_7113-768px.jpg);
+  }
+}
+
+@media(max-width: 570px) {
+  .heroParallax {
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .2)), url(../public/assets/images/IMG_7113-570px.jpg);
+  }
+}
+
+@media(max-width: 280px) {
+  .heroParallax {
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .2)), url(../public/assets/images/IMG_7113-280px.jpg);
+  }
+}
+
+/*------------------ TEXT ------------------*/
+
 .heroText {
   min-height: 100vh;
   display: flex;
