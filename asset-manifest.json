@@ -1,14 +1,17 @@
 {
   "files": {
-    "main.css": "/react-kennel-club/static/css/main.f0307a36.css",
-    "main.js": "/react-kennel-club/static/js/main.57a104c1.js",
+    "main.css": "/react-kennel-club/static/css/main.fd7c8236.css",
+    "main.js": "/react-kennel-club/static/js/main.aae84daa.js",
     "static/js/787.e57a5d3e.chunk.js": "/react-kennel-club/static/js/787.e57a5d3e.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/react-kennel-club/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/puppy-lab.jpg": "/react-kennel-club/static/media/puppy-lab.0f98a80dce5c20077e08.jpg",
     "static/media/line-of-dogs.jpg": "/react-kennel-club/static/media/line-of-dogs.5ba60b6bce457a12f62a.jpg",
     "static/media/fontawesome-webfont.eot": "/react-kennel-club/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/react-kennel-club/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/puppy-lab-768px.jpg": "/react-kennel-club/static/media/puppy-lab-768px.34c1a53175b1c352b4d9.jpg",
     "static/media/line-of-dogs-768px.jpg": "/react-kennel-club/static/media/line-of-dogs-768px.a24f5f0e0b2130b8c8f3.jpg",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/react-kennel-club/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/puppy-lab-570px.jpg": "/react-kennel-club/static/media/puppy-lab-570px.94eda7863c6c1def5347.jpg",
     "static/media/line-of-dogs-570px.jpg": "/react-kennel-club/static/media/line-of-dogs-570px.18df3702a4317c2990fe.jpg",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/react-kennel-club/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/IMG_7113-768px.jpg": "/react-kennel-club/static/media/IMG_7113-768px.d3b9e586b442867f6088.jpg",
@@ -32,6 +35,7 @@
     "static/media/playfair-display-latin-600italic.woff2": "/react-kennel-club/static/media/playfair-display-latin-600italic.401398dec1d58771e697.woff2",
     "static/media/playfair-display-latin-500italic.woff2": "/react-kennel-club/static/media/playfair-display-latin-500italic.b75db1b343b2af95068b.woff2",
     "static/media/playfair-display-latin-800italic.woff2": "/react-kennel-club/static/media/playfair-display-latin-800italic.5fd51bd408dde1299cba.woff2",
+    "static/media/puppy-lab-280px.jpg": "/react-kennel-club/static/media/puppy-lab-280px.872e1660aada898c0af3.jpg",
     "static/media/playfair-display-latin-600.woff2": "/react-kennel-club/static/media/playfair-display-latin-600.38eec21bf146d030617e.woff2",
     "static/media/playfair-display-latin-700.woff2": "/react-kennel-club/static/media/playfair-display-latin-700.97682b48f27b05f14a12.woff2",
     "static/media/playfair-display-latin-800.woff2": "/react-kennel-club/static/media/playfair-display-latin-800.b8c4df46163d0314dfd5.woff2",
@@ -64,12 +68,12 @@
     "static/media/open-sans-latin-600italic.woff2": "/react-kennel-club/static/media/open-sans-latin-600italic.cc4bf5b2955147801c02.woff2",
     "static/media/open-sans-latin-400italic.woff2": "/react-kennel-club/static/media/open-sans-latin-400italic.bb915319f59c02c348a6.woff2",
     "index.html": "/react-kennel-club/index.html",
-    "main.f0307a36.css.map": "/react-kennel-club/static/css/main.f0307a36.css.map",
-    "main.57a104c1.js.map": "/react-kennel-club/static/js/main.57a104c1.js.map",
+    "main.fd7c8236.css.map": "/react-kennel-club/static/css/main.fd7c8236.css.map",
+    "main.aae84daa.js.map": "/react-kennel-club/static/js/main.aae84daa.js.map",
     "787.e57a5d3e.chunk.js.map": "/react-kennel-club/static/js/787.e57a5d3e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0307a36.css",
-    "static/js/main.57a104c1.js"
+    "static/css/main.fd7c8236.css",
+    "static/js/main.aae84daa.js"
   ]
 }
