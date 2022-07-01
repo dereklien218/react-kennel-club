@@ -70,6 +70,83 @@ html {
   align-items: center;
 }
 
+/************************ NEWS PARALLAX **********************/
+
+.newsParallax {
+  /* Full height */
+  height: 100%;
+
+  /* Parallax scrolling effect */
+  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../public/assets/images/IMG_7270.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*------------------ MEDIA ------------------*/
+
+@media screen and (max-device-width: 768px) {
+  .newsParallax {
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../public/assets/images/IMG_7270.jpg);
+    background-attachment: scroll !important;
+  }
+}
+
+@media screen and (max-device-width: 570px) {
+  .newsParallax {
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../public/assets/images/IMG_7270-570px.jpg);
+    background-attachment: scroll !important;
+  }
+}
+
+@media screen and (max-device-width: 280px) {
+  .newsParallax {
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../public/assets/images/IMG_7270-280.jpg);
+    background-attachment: scroll !important;
+  }
+}
+
+/************************ CLASSES PARALLAX **********************/
+
+.classParallax {
+  /* Full height */
+  height: 500px;
+
+  /* Parallax scrolling effect */
+  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../public/assets/images/line-of-dogs.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*------------------ MEDIA ------------------*/
+
+@media screen and (max-device-width: 768px) {
+  .classParallax {
+    height: 350px;
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../public/assets/images/line-of-dogs-768px.jpg);
+    background-attachment: scroll !important;
+  }
+}
+
+@media screen and (max-device-width: 570px) {
+  .classParallax {
+    height: 250px;
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../public/assets/images/line-of-dogs-570px.jpg);
+    background-attachment: scroll !important;
+  }
+}
+
+@media screen and (max-device-width: 280px) {
+  .classParallax {
+    height: 200px;
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../public/assets/images/line-of-dogs-280px.jpg);
+    background-attachment: scroll !important;
+  }
+}
+
 a {
   color: white;
 }

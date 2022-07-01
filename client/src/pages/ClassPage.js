@@ -4,16 +4,7 @@ import { Link } from "react-router-dom";
 function ClassPage() {
   return (
     <React.Fragment>
-      <header
-        className="jumbotron-fluid parallax"
-        style={{
-          height: "500px",
-          backgroundImage:
-            "linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(" +
-            "assets/images/line-of-dogs.jpg" +
-            ")",
-        }}
-      >
+      <header className="jumbotron-fluid classParallax">
         <div className="container h-100">
           <div className="row row-content justify-content-center h-100 align-items-center">
             <div className="col-10 col-md-8 col-lg-6 text-center">

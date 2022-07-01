@@ -4,17 +4,7 @@ import { Link } from "react-router-dom";
 class NewsParallax extends Component {
   render() {
     return (
-      <header
-        className="jumbotron-fluid parallax"
-        id="news"
-        style={{
-          backgroundHeight: "auto",
-          backgroundImage:
-            "linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(" +
-            "assets/images/IMG_7270.jpg" +
-            ")",
-        }}
-      >
+      <header className="jumbotron-fluid newsParallax" id="news">
         <div className="container h-100">
           <div className="row justify-content-center h-100 align-items-center">
             <div className="col-12 col-md-8 text-center">
