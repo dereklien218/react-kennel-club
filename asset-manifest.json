@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/react-kennel-club/static/css/main.b566a1cb.css",
-    "main.js": "/react-kennel-club/static/js/main.1a04b548.js",
+    "main.css": "/react-kennel-club/static/css/main.d8a01eae.css",
+    "main.js": "/react-kennel-club/static/js/main.9408dba1.js",
     "static/js/787.e57a5d3e.chunk.js": "/react-kennel-club/static/js/787.e57a5d3e.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/react-kennel-club/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/react-kennel-club/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/react-kennel-club/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/react-kennel-club/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/react-kennel-club/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/IMG_7113-768px.jpg": "/react-kennel-club/static/media/IMG_7113-768px.d3b9e586b442867f6088.jpg",
+    "static/media/IMG_7113.jpg": "/react-kennel-club/static/media/IMG_7113.297c9163679b536cf872.jpg",
+    "static/media/IMG_7113-570px.jpg": "/react-kennel-club/static/media/IMG_7113-570px.f3cc4689a72ce308db7e.jpg",
     "static/media/playfair-display-latin-600italic.woff": "/react-kennel-club/static/media/playfair-display-latin-600italic.54867c7f184d0246d8eb.woff",
     "static/media/playfair-display-latin-700italic.woff": "/react-kennel-club/static/media/playfair-display-latin-700italic.c08700ac482acfcc1127.woff",
     "static/media/playfair-display-latin-500italic.woff": "/react-kennel-club/static/media/playfair-display-latin-500italic.de02afa4b5b7e059be29.woff",
@@ -42,6 +45,7 @@
     "static/media/open-sans-latin-600italic.woff": "/react-kennel-club/static/media/open-sans-latin-600italic.8d513ad94829ef391cd1.woff",
     "static/media/open-sans-latin-700italic.woff": "/react-kennel-club/static/media/open-sans-latin-700italic.e961bdb476db6860f20f.woff",
     "static/media/open-sans-latin-400italic.woff": "/react-kennel-club/static/media/open-sans-latin-400italic.56bdf84751634e8deaff.woff",
+    "static/media/IMG_7113-280px.jpg": "/react-kennel-club/static/media/IMG_7113-280px.7ed1610dd0887a4d50b1.jpg",
     "static/media/open-sans-latin-800.woff2": "/react-kennel-club/static/media/open-sans-latin-800.1666787ea3ff3941e764.woff2",
     "static/media/open-sans-latin-700.woff2": "/react-kennel-club/static/media/open-sans-latin-700.92425c623934facef057.woff2",
     "static/media/open-sans-latin-300.woff2": "/react-kennel-club/static/media/open-sans-latin-300.b871ad6e5cbe2a1c8c73.woff2",
@@ -53,12 +57,12 @@
     "static/media/open-sans-latin-600italic.woff2": "/react-kennel-club/static/media/open-sans-latin-600italic.cc4bf5b2955147801c02.woff2",
     "static/media/open-sans-latin-400italic.woff2": "/react-kennel-club/static/media/open-sans-latin-400italic.bb915319f59c02c348a6.woff2",
     "index.html": "/react-kennel-club/index.html",
-    "main.b566a1cb.css.map": "/react-kennel-club/static/css/main.b566a1cb.css.map",
-    "main.1a04b548.js.map": "/react-kennel-club/static/js/main.1a04b548.js.map",
+    "main.d8a01eae.css.map": "/react-kennel-club/static/css/main.d8a01eae.css.map",
+    "main.9408dba1.js.map": "/react-kennel-club/static/js/main.9408dba1.js.map",
     "787.e57a5d3e.chunk.js.map": "/react-kennel-club/static/js/787.e57a5d3e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b566a1cb.css",
-    "static/js/main.1a04b548.js"
+    "static/css/main.d8a01eae.css",
+    "static/js/main.9408dba1.js"
   ]
 }
